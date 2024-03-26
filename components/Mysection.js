@@ -3,9 +3,6 @@ import Image from "next/image";
 import styles from "./Mysection.module.scss";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import back from "../components/icons/back.png"
-
-import { IoHeartOutline } from "react-icons/io5";
 
 gsap.registerPlugin(ScrollTrigger);
 

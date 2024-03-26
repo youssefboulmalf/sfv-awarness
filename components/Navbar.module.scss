@@ -1,0 +1,51 @@
+.NavbarContainer{
+  position: fixed;
+  width: 100%;
+  height: 6vh;
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1vh, 2vw, 1vh, 2vw;
+  bottom: 0%;
+}
+.PlusButtonContainer{
+  position: relative;
+  display: flex;
+  width: 30px;
+  height: 3vh;
+  flex-direction: row;
+}
+.PlusButtonLeft{
+  position: absolute;
+  background-color: #28c6c3;
+  width: 100%;
+  height: 100%;
+  right: 10%;
+  border-radius: 5px;
+  z-index: 10;
+}
+.PlusButtonCenter{
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.PlusButtonRight{
+  position: absolute;
+  left: 10%;
+  height: 100%;
+  background-color: #e03c74;
+  width: 100%;
+  border-radius: 5px; 
+}
+.Plus{
+  z-index: 11;
+  color: black;
+}

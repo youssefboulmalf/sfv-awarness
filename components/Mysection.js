@@ -3,6 +3,10 @@ import Image from "next/image";
 import styles from "./Mysection.module.scss";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import back from "../components/icons/back.png"
+
+import { IoHeartOutline } from "react-icons/io5";
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Mysection({
@@ -39,6 +43,8 @@ export default function Mysection({
   }, []);
   return (
     <div className={styles.section} ref={sectionRef}>
+      <div className={styles.InteractionBar}>
+      </div>
       <div className={styles.copy}>
         <h2 ref={headlineRef}>{headline}</h2>
       </div>

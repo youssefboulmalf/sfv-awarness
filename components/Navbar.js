@@ -11,8 +11,8 @@ import { LuUser2 } from "react-icons/lu";
 export default function Navbar(){
   return(
     <div className={styles.NavbarContainer}>
-        <AiFillHome />
-        <FaSearch />
+        <AiFillHome className={styles.icon}/>
+        <FaSearch className={styles.icon}/>
         <div className={styles.PlusButtonContainer}>
             <div className={styles.PlusButtonLeft}></div>
             <div className={styles.PlusButtonCenter}>
@@ -20,8 +20,8 @@ export default function Navbar(){
             </div>
             <div className={styles.PlusButtonRight}></div>
         </div>
-        <BsChatRightDots />
-        <LuUser2 />
+        <BsChatRightDots className={styles.icon}/>
+        <LuUser2 className={styles.icon}/>
     </div>
   );
 }

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: myfirstfont;
+  src: url(../public/fonts/KOMIKAX_.ttf);
+  weight: 400
+}
 .section {
   position: relative;
   height: 100vh;
@@ -9,11 +14,12 @@
   align-items: center;
   scroll-snap-align: center;
   position: relative;
-  background-color: #57d609;
+  background-color: #39b549;
   .copy {
     h2 {
       position: relative;
       z-index: 1;
+      font-family: myfirstfont;
       font-size: 1.6rem;
       font-weight: bold;
       color: #fff;
@@ -67,7 +73,7 @@
   align-items: center;
   scroll-snap-align: center;
   position: relative;
-  background-color: #e73216;
+  background-color: #253a7c;
   .copy {
     h2 {
       position: relative;

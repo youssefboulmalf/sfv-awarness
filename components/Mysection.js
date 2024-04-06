@@ -4,6 +4,7 @@ import styles from "./Mysection.module.scss";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Mysection({
@@ -12,7 +13,11 @@ export default function Mysection({
   scrollTo,
   goToSectionRef,
   showArrow,
+  type,
 }) {
+
+ 
+
   const headlineRef = useRef();
   const sectionRef = useRef();
   useEffect(() => {
@@ -39,7 +44,7 @@ export default function Mysection({
     return () => {};
   }, []);
   return (
-    <div className={styles.section} ref={sectionRef}>
+    <div className={type == 0 ? styles.section : styles.sectionRed} ref={sectionRef}>
       <div className={styles.InteractionBar}>
       </div>
       <div className={styles.copy}>

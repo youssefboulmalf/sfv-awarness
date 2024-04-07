@@ -13,8 +13,6 @@ export default function Home() {
   const section3 = useRef();
   const section4 = useRef();
   const section5 = useRef();
-  const section6 = useRef();
-  const section7 = useRef();
   function scrollTo(section) {
     section.current.scrollIntoView({ behavior: "smooth" });
   }
@@ -28,7 +26,7 @@ export default function Home() {
       {type != 1 ? (<div className={`container ${styles.container}`}>
         <div ref={section1}>
           <Mysection
-            headline={`Wist jij dat stoppen met overmatig scrollen kan leiden tot...`}
+            headline={`Wist jij, dat je door te stoppen met scrollen...`}
             Text={``}
             goToSectionRef={section2}
             scrollTo={scrollTo}
@@ -38,9 +36,9 @@ export default function Home() {
         </div>
         <div ref={section2}>
           <Mysection
-            headline={`1. Verbeterde Concentratie en Focus`}
+            headline={`1. Jouw focus en concentratie verbetert`}
             goToSectionRef={section3}
-            text={"Stoppen met overmatig scrollen van short-form video's op sociale media kan leiden tot een verbeterd concentratievermogen, waardoor jij je beter kunnen concentreren op belangrijkere taken zoals schoolwerk!"}
+            text={"Stoppen met overmatig scrollen van short-form video's op sociale media zal jouw concentratievermogen verbeteren, waardoor je je beter kunt concentreren op belangrijkere taken"}
             scrollTo={scrollTo}
             showArrow={true}
             type={type}
@@ -48,9 +46,9 @@ export default function Home() {
         </div>
         <div ref={section3}>
           <Mysection
-            headline={`2. Vermindering van Afleidende Gedachten`}
+            headline={`2. Je sneller informatie kan begrijpen`}
             goToSectionRef={section1}
-            text={"Zonder de constante stroom van korte video's zullen je merken dat je minder moeite hebben om afleidende gedachten te blokkeren, wat resulteert in een verbeterde mentale helderheid."}
+            text={"Het stoppen met overmatig gebruik van short-form video's kan jouw informatieverwerking verbeteren, waardoor je efficiënter kunt studeren en informatie kunt opnemen."}
             scrollTo={scrollTo}
             showArrow={false}
             type={type}
@@ -58,9 +56,9 @@ export default function Home() {
         </div>
         <div ref={section4}>
           <Mysection
-            headline={`3. Verminderde Kans op Verslaving`}
+            headline={`3. Je je planning beter onthoudt en minder uitstelt`}
             goToSectionRef={section1}
-            text={"Door te stoppen met het scrollen op sociale media kan jij de kans op verslaving aan deze platforms verminderen, waardoor je meer controle krijgen over je eigen leven."}
+            text={"Zonder de negatieve impact van  scrollen op platforms als TikTok, wordt je geheugen voor geplande taken beter, stel je minder uit, en worden jouw dagelijkse activiteiten beter georganiseerd"}
             scrollTo={scrollTo}
             showArrow={false}
             type={type}
@@ -68,29 +66,9 @@ export default function Home() {
         </div>
         <div ref={section5}>
           <Mysection
-            headline={`4. Verhoogde Leermotivatie`}
+            headline={`4. Dat je meer zin krijgt om te presteren op school`}
             goToSectionRef={section1}
-            text={"Zonder de constante afleiding van korte video's kan jij een verhoogde motivatie ervaren, wat kan resulteren in een positievere houding ten opzichte van jouw eigen doelen."}
-            scrollTo={scrollTo}
-            showArrow={false}
-            type={type}
-          />
-        </div>
-        <div ref={section6}>
-          <Mysection
-            headline={`5. Verbeterd Geheugen voor Geplande Taken`}
-            goToSectionRef={section1}
-            text={" Zonder de negatieve impact van overmatig gebruik van platforms zoals TikTok, kan jij je beter herinneren aan geplande taken en kan je minder uitstelgedrag gaan vertonen."}
-            scrollTo={scrollTo}
-            showArrow={false}
-            type={type}
-          />
-        </div>
-        <div ref={section7}>
-          <Mysection
-            headline={`6. Meer Bewuste Tijdsbesteding`}
-            goToSectionRef={section1}
-            text={"Het stoppen met overmatig scrollen op sociale media stelt jouw in staat om meer bewust om te gaan met je tijd, waardoor je deze kan besteden aan productieve activiteiten die bijdragen aan hun persoonlijke en academische ontwikkeling."}
+            text={"Door minder afleidende gedachten die voortkomen uit scrollen, wordt je beter in schooltaken – concentreren, onthouden en plannen, waardoor je betere cijfers haalt "}
             scrollTo={scrollTo}
             showArrow={false}
             type={type}
@@ -105,7 +83,7 @@ export default function Home() {
       (      <div className={`container ${styles.container}`}>
         <div ref={section1}>
           <Mysection
-            headline={`Wist jij dat overmatig scrollen kan leiden tot...`}
+            headline={`Wist jij dat te veel scrollen`}
             Text={``}
             goToSectionRef={section2}
             scrollTo={scrollTo}
@@ -115,9 +93,9 @@ export default function Home() {
         </div>
         <div ref={section2}>
           <Mysection
-            headline={`1. Verslechterde Concentratie en Focus`}
+            headline={`1. Je concentratievermogen afneemt`}
             goToSectionRef={section3}
-            text={"Stoppen met overmatig scrollen van short-form video's op sociale media kan leiden tot een verbeterd concentratievermogen, waardoor jij je beter kunnen concentreren op belangrijkere taken zoals schoolwerk!"}
+            text={"Overmatig scrollen van short-form video's op sociale media vermindert jouw concentratievermogen, waardoor je moeite hebt om je te focussen op belangrijkere taken."}
             scrollTo={scrollTo}
             showArrow={true}
             type={type}
@@ -125,9 +103,9 @@ export default function Home() {
         </div>
         <div ref={section3}>
           <Mysection
-            headline={`2. Meer Afleidende Gedachten`}
+            headline={`2. Je tijd zomaar voorblij vliegt`}
             goToSectionRef={section1}
-            text={"Zonder de constante stroom van korte video's zullen je merken dat je minder moeite hebben om afleidende gedachten te blokkeren, wat resulteert in een verbeterde mentale helderheid."}
+            text={"Jij besteedt vaak zonder het inde gaten te hebben vele uren aan het kijken naar korte video’s. Zo wordt waardevolle tijd verspild die anders productief en zinvol besteed had kunnen worden."}
             scrollTo={scrollTo}
             showArrow={false}
             type={type}
@@ -135,9 +113,9 @@ export default function Home() {
         </div>
         <div ref={section4}>
           <Mysection
-            headline={`3. Grote Kans op Verslaving`}
+            headline={`3. Je motivatie om te leren afneemt`}
             goToSectionRef={section1}
-            text={"Door te stoppen met het scrollen op sociale media kan jij de kans op verslaving aan deze platforms verminderen, waardoor je meer controle krijgen over je eigen leven."}
+            text={"Schoolwerk lezen, leren en /of begrijpen geeft lang niet zo vaak dopamine-shots als korte video’s kijken. Maar leren en huiswerk maken leveren een diploma op, en video’s kijken niet. Daarom moet de lees-spieren goed getraind worden"}
             scrollTo={scrollTo}
             showArrow={false}
             type={type}
@@ -145,29 +123,9 @@ export default function Home() {
         </div>
         <div ref={section5}>
           <Mysection
-            headline={`4. Lagere Leermotivatie`}
+            headline={`4. Je minder interesse hebt voor je offline leven`}
             goToSectionRef={section1}
-            text={"Zonder de constante afleiding van korte video's kan jij een verhoogde motivatie ervaren, wat kan resulteren in een positievere houding ten opzichte van jouw eigen doelen."}
-            scrollTo={scrollTo}
-            showArrow={false}
-            type={type}
-          />
-        </div>
-        <div ref={section6}>
-          <Mysection
-            headline={`5. Slechter Geheugen voor Geplande Taken`}
-            goToSectionRef={section1}
-            text={" Zonder de negatieve impact van overmatig gebruik van platforms zoals TikTok, kan jij je beter herinneren aan geplande taken en kan je minder uitstelgedrag gaan vertonen."}
-            scrollTo={scrollTo}
-            showArrow={false}
-            type={type}
-          />
-        </div>
-        <div ref={section7}>
-          <Mysection
-            headline={`6. Minder Bewuste Tijdsbesteding`}
-            goToSectionRef={section1}
-            text={"Het stoppen met overmatig scrollen op sociale media stelt jouw in staat om meer bewust om te gaan met je tijd, waardoor je deze kan besteden aan productieve activiteiten die bijdragen aan hun persoonlijke en academische ontwikkeling."}
+            text={"Vaak korte video’s kijken op social media vergroot jouw kans op verslaving aan deze platforms, waardoor je steeds meer gaat kijken en je offline leven verwaarloost."}
             scrollTo={scrollTo}
             showArrow={false}
             type={type}

@@ -4,6 +4,7 @@ import Mysection from "../components/Mysection";
 import styles from "../styles/Home.module.scss";
 import Navbar from "../components/Navbar";
 import { useSearchParams } from 'next/navigation'
+import { Analytics } from "@vercel/analytics/react"
 export default function Home() {
 
   const searchParams = useSearchParams()
@@ -133,6 +134,7 @@ export default function Home() {
         </div>
         <Navbar/>
       </div>)}
+      <Analytics />
     </div>
   );
 }

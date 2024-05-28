@@ -17,3 +17,6 @@ This project aims to raise awareness about the potential risks and negative effe
 
 - **Next.js**: A powerful React framework for server-side rendering and static site generation.
 - **React**: A JavaScript library for building user interfaces.
+
+## 🌐 Link
+[HERE!](https://sfv-awarness.vercel.app/)
